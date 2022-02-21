@@ -1,0 +1,35 @@
+.DS_Store
+node_modules
+/dist
+src/assets/style/sprites.scss
+src/assets/style/sprites.png
+sprites.scss
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+sprites.png
+node_modules.zip
+src/assets/styles/sprites.scss
+/deploy/dist.tar
+/deploy/dist.tar.gz
+/deploy/web_qy.tar
+/deploy/web_qy.tar.gz
+
+/deploy/temp
+deploy/web.tar
+deploy/web.tar.gz
+deploy/web.zip
