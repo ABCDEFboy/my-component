@@ -1,0 +1,11 @@
+import { {{importName}}Options } from "./types/index";
+
+class Player {
+  private options: {{importName}}Options;
+
+  constructor(options: {{importName}}Options) {
+    this.options = options;
+  }
+}
+
+export default {{importName}};

@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": ".",
+    "moduleResolution": "node",
+    "paths": {
+      "@test/*": [
+        "packages/test/*"
+      ]
+    },
+    "target": "es5",
+    "module": "es2015",
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "preserveSymlinks": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "declaration": true,
+    "declarationDir": "temp_types"
+  },
+  "exclude": [
+    "node_modules",
+    "temp_types"
+  ],
+  "include": [
+    "./**/*.ts",
+    "./**/*.json"
+  ]
+}

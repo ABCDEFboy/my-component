@@ -1,0 +1,21 @@
+{
+  "name": "{{fullName}}",
+  "version": "1.0.0",
+  "description": "{{name}}",
+  "main": "dist/index.js",
+  "doc": "index.ts",
+  "typings": "types/index.d.ts",
+  "keywords": [
+    "{{name}}"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABCDEFboy/my-component.git"
+  },
+  "author": "",
+  "license": "MIT"
+}

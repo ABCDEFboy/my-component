@@ -1,0 +1,16 @@
+# {{fullName}}
+
+## 安装
+
+```bash
+npm i {{fullName}}
+```
+
+## 初始化
+
+```javascript
+import {{importName}} from "{{fullName}}";
+
+// ...
+
+```
