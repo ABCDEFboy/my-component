@@ -5,9 +5,7 @@
     "outDir": ".",
     "moduleResolution": "node",
     "paths": {
-      "@test/*": [
-        "packages/test/*"
-      ]
+      
     },
     "target": "es5",
     "module": "es2015",

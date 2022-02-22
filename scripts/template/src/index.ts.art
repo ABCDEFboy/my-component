@@ -1,6 +1,6 @@
 import { {{importName}}Options } from "./types/index";
 
-class Player {
+class {{importName}} {
   private options: {{importName}}Options;
 
   constructor(options: {{importName}}Options) {
